@@ -1,0 +1,246 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    src: url(https://fonts.gstatic.com/s/raleway/v28/1Ptxg8zYS_SKggPN4iEgvnHyvveLxVvaorCIPrE.woff2);
+    font-family: "Raleway";
+}
+
+body {
+    background-color: #f3e2e2;
+    font-family: "Raleway";
+}
+
+img {
+    filter: grayscale(70%);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.head-img {
+    background-image: url(https://www.w3schools.com/w3images/wedding_couple.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    filter: grayscale(50%);
+    min-height: 100%;
+    height: 700px;
+    position: relative;
+}
+
+.head-cont {
+    position: relative;
+    text-align: center;
+    margin: -450px 0 350px 0;
+    color: white;
+    letter-spacing: 4px;
+}
+
+.head-cont h1 {
+    font-size: 64px;
+    margin-bottom: 24px;
+    font-weight: 400;
+}
+
+.head-cont h2 {
+    font-size: 30px;
+    margin: 18px 0;
+    font-weight: 400;
+}
+
+.about {
+    color: #757575;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.about h1 {
+    letter-spacing: 1px;
+    margin-bottom: 50px;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.about p {
+    font-size: 15px;
+    font-style: italic;
+    text-align: left;
+    margin: 45px auto;
+    width: 980px;
+    line-height: 2;
+}
+
+.about-img {
+    width: 980px;
+    border-radius: 4px;
+}
+
+.weddingDetailsBTN {
+    padding: 14px 26px;
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    margin: 26px 0;
+
+}
+
+.weddingDetailsBTN:hover {
+    background-color: rgb(190, 190, 190);
+    color: rgb(20, 20, 20);
+}
+
+.uRInvited {
+    margin: 50px 0;
+}
+
+.invite-img {
+    background-image: url(https://www.w3schools.com/w3images/flowers.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 660px;
+}
+
+.invite-cont {
+    text-align: center;
+    color: white;
+    margin: -410px 0 330px 0;
+}
+
+.invite-cont h1 {
+    font-size: 64px;
+    font-weight: 400;
+}
+
+.invite-cont h2 {
+    font-size: 30px;
+    font-weight: 400;
+    margin: 54px 0 0 0;
+}
+
+.wedding {
+    padding-bottom: 60px;
+}
+
+.wedding h1 {
+    text-align: center;
+    color: #757575;
+    margin-bottom: 70px;
+    font-size: 36px;
+    font-weight: 400;
+}
+
+.wed-img {
+    width: 980px;
+    border-radius: 6px;
+}
+
+.whenWhere {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 36px;
+}
+
+.where {
+    margin: 30px 140px;
+    line-height: 2.5;
+}
+
+.where h2 {
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.where p {
+    font-size: 15px;
+}
+
+.when {
+    margin: 30px 140px;
+    line-height: 2.5;
+}
+
+.when h2 {
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.when p {
+    font-size: 15px;
+}
+
+.wed-img {
+    border-radius: 6px;
+}
+
+.rsvp {
+    text-align: center;
+    background-color: #ffdddd;
+    padding: 70px 0;
+}
+
+.rsvp h1 {
+    font-size: 36px;
+    font-weight: 400;
+    margin: 6px 0;
+    letter-spacing: 4px;
+}
+
+.rsvp p {
+    font-size: 18px;
+    font-weight: 400;
+    margin: 30px 0;
+    letter-spacing: 4px;
+}
+
+.rspv-Btn {
+    padding: 20px 60px;
+    color: white;
+    background-color: #f88179;
+    border: none;
+    border-radius: 4px;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.rspv-Btn:hover {
+    background-color: rgb(190, 190, 190);
+    color: black;
+    cursor: pointer;
+}
+
+.footer {
+    background-color: black;
+    padding: 20px 0;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+
+.footer a {
+    color: white;
+}
+
+.nav-bar {
+    display: flex;
+    box-sizing: border-box;
+    justify-content: space-evenly;
+    padding: 20px 0;
+    position: static;
+}
+
+.nav {
+    margin: 0 20px;
+}
+
+.nav a {
+    color: black;
+    text-decoration: none;
+}
